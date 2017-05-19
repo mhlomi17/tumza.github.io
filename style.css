@@ -1,0 +1,45 @@
+Body{
+    background-image:url(decoy.jpg);
+    background-size:1100px;
+	border-left-color:white;
+    font-family:algerial;
+    color:white;
+	text-align:center-right;
+}
+h1{
+  text-align:center;
+  font-size:70px;
+  font-family:algerial;
+}
+
+
+ul {
+    margin:0px;
+    pedding:0px;
+    list-style:none;
+    text-align:center;
+}
+ul li { 
+   float:left;
+   width:200px;  
+   height:40px;
+   background-color:black;
+   opacity:.8;
+   line-height:40px;
+   text-align:center;
+   border:2px solid;
+}
+ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	background-color:lightblue;
+}
+ul li ul li{
+	display:none;
+} 
+ul li :hover ul li{
+	display:block;
+}
