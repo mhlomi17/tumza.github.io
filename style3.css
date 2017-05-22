@@ -1,6 +1,6 @@
 Body{
-    background-image:url(gf.jpg);
-    background-size:1100px;
+    background-image:url(we.jpg);
+    background-size:100%;
 	border-left-color:white;
     font-family:algerial;
     color:white;
@@ -10,7 +10,30 @@ Body{
 h1{
   color:light blue;
 }
-
 p{
- color:ligth blue;	
+  footer:bottom;	
 }
+ul {
+    margin:0px;
+    pedding:0px;
+    list-style:none;
+    text-align:center;
+}
+p { 
+   float:left;
+   width:200px;  
+   height:40px;
+   background-color:black;
+   opacity:.9;
+   line-height:40px;
+   text-align:center;
+   border:2px solid;
+}
+p a {
+	text-decoration:none;
+	color:white;
+	display:block;
+ul li :hover ul li{
+	display:block;
+
+
